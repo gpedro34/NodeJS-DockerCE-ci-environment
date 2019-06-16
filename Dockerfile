@@ -1,7 +1,7 @@
 FROM jenkins/jnlp-agent-docker:latest
 # See https://github.com/jenkinsci/docker/blob/master/README.md for more information on the base image
 
-ARG COMPOSE_VERSION="1.23.2"
+ARG COMPOSE_VERSION="1.24.0"
 
 LABEL vendor.name="jenkins" \
     vendor.docker.home="https://hub.docker.com/u/jenkins" \

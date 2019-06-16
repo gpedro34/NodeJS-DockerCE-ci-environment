@@ -2,7 +2,7 @@
 
 ## Usage
 
-`docker run --privileged -d -v /var/run/docker.sock:/var/run/docker.sock gpedro34/nodejs-dockercd-ci-environment`
+`docker run --privileged -d -v /var/run/docker.sock:/var/run/docker.sock gpedro34/nodejs-dockercd-ci-environment:1.23.2`
 Needs docker unix socket mapped to `/var/run/`
 
 ## Notes
